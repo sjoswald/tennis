@@ -5,5 +5,10 @@
 # player2 "loss"
 
 def tennis_winner(player_name)
-    1
+    
+    if player_name == "player_1"
+        "1, 0"
+    else
+        "0, 1"
+    end
 end
